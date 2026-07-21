@@ -12,43 +12,26 @@ import CTA from "./components/CTA";
 import LeadForm from "./components/LeadForm";
 import Footer from "./components/Footer";
 
+export default function Home() {
+  return (
+    <>
+      <Navbar />
 
-export default function Home(){
+      <main>
+        <Hero />
+        <TrustedCompanies />
+        <Programs />
+        <Features />
+        <Benefits />
+        <Process />
+        <Statistics />
+        <Testimonials />
+        <FAQ />
+        <CTA />
+        <LeadForm />
+      </main>
 
-return(
-<>
-
-<Navbar/>
-
-<main>
-
-<Hero/>
-
-<TrustedCompanies/>
-
-<Programs/>
-
-<Features/>
-
-<Benefits/>
-
-<Process/>
-
-<Statistics/>
-
-<Testimonials/>
-
-<FAQ/>
-
-<LeadForm/>
-
-<CTA/>
-
-</main>
-
-<Footer/>
-
-</>
-)
-
+      <Footer />
+    </>
+  );
 }
