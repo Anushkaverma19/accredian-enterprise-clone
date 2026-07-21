@@ -3,11 +3,10 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Menu, X, GraduationCap } from "lucide-react";
-
 const navLinks = [
-  { name: "Home", href: "#" },
+  { name: "Home", href: "#home" },
   { name: "Solutions", href: "#solutions" },
-  { name: "Programs", href: "#programs" },
+  { name: "Programs", href: "#program" },
   { name: "Benefits", href: "#benefits" },
   { name: "Testimonials", href: "#testimonials" },
   { name: "FAQ", href: "#faq" },
